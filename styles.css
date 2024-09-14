@@ -1,0 +1,38 @@
+.character-list {
+    display: flex;
+    flex-wrap: wrap; /* アイテムを複数行に表示 */
+    gap: 1rem;
+}
+
+.character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #333; /* 四角の枠線を追加 */
+    padding: 10px; /* 枠内に余白を追加 */
+    margin: 10px; /* キャラクター間にスペースを追加 */
+    border-radius: 8px; /* 角を丸くする */
+    width: 150px; /* キャラクターボックスの幅を固定 */
+}
+
+.character img {
+    width: 100%; /* 画像がボックスの幅に合わせる */
+    height: auto; /* 高さは自動調整 */
+    border-radius: 8px; /* 角を丸くする */
+}
+
+.character-info h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0 0.25rem;
+}
+
+.character-info p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+.character-image {
+    max-width: 150px;  /* 画像の最大幅を設定 */
+    height: auto;      /* 縦横比を保持 */
+    border-radius: 8px; /* 角を少し丸める */
+}
